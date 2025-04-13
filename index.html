@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxarlly</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #0073e6;
+        }
+
+        pre {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oxarlly</h1>
+    <p>This is a simple tool to generate a range of numbers based on a start value, end value, and an optional step value.</p>
+
+    <h2>Installation</h2>
+    <pre><code>npm install oxarlly-temp</code></pre>
+
+    <h2>Usage</h2>
+    <p>Create the following text files:</p>
+    <ul>
+        <li><strong>start.txt</strong> - Contains the start value.</li>
+        <li><strong>end.txt</strong> - Contains the end value.</li>
+        <li><strong>step.txt (optional)</strong> - Contains the step value. Defaults to 1 if not provided.</li>
+    </ul>
+
+    <p>Run the generator:</p>
+    <pre><code>node src/index.js</code></pre>
+
+    <p>The generated numbers will be saved to result.txt.</p>
+</body>
+</html>
