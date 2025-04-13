@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage - Oxarlly</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #0073e6;
+        }
+
+        pre {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: Consolas, "Courier New", monospace;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .instruction {
+            margin-bottom: 20px;
+        }
+
+        .instruction h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oxarlly Usage Guide</h1>
+
+    <p>Follow the instructions below to use Oxarlly and generate your range of numbers.</p>
+
+    <div class="instruction">
+        <h2>Step 1: Create the Required Text Files</h2>
+        <p>First, create the following text files:</p>
+        <ul>
+            <li><strong>start.txt</strong> - Contains the start value.</li>
+            <li><strong>end.txt</strong> - Contains the end value.</li>
+            <li><strong>step.txt (optional)</strong> - Contains the step value. Defaults to 1 if not provided.</li>
+        </ul>
+    </div>
+
+    <div class="instruction">
+        <h2>Step 2: Run the Generator</h2>
+        <p>Once the files are in place, run the following command in your terminal:</p>
+        <pre><code>node src/index.js</code></pre>
+    </div>
+
+    <div class="instruction">
+        <h2>Step 3: View the Results</h2>
+        <p>The generated numbers will be saved to <strong>result.txt</strong>. You can open this file to view the range of numbers.</p>
+    </div>
+
+    <p>That's it! You have successfully used Oxarlly to generate a range of numbers based on your input.</p>
+</body>
+</html>
